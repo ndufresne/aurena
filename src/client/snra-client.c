@@ -1019,7 +1019,6 @@ snra_client_constructed (GObject * object)
 
   if (client->flags & SNRA_CLIENT_PLAYER) {
     max_con++;
-    construct_player (client);
   }
 
   if (client->flags & SNRA_CLIENT_CONTROLLER)
